@@ -144,3 +144,47 @@ a.sidebar-link:hover {
 .card:hover {
     border: 1px solid #3751FF;
 }
+
+
+#graph{
+    background-color: #FFF;
+    border-radius: 8px;
+    border: 1px solid #dfe0eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-8{
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-right: 1px solid #dfe0eb;
+}
+.row{
+    /* display: flex;
+    flex-wrap: wrap; */
+    border-bottom: 1px solid #dfe0eb;
+}
+img{
+    padding-top: 5%;
+}
+.h8{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+    line-height: 22px;
+    color: #9fa2b4;
+    text-align:center;
+    /* margin-top: 40px; */
+   
+}
+
+.h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #252733;
+    text-align: center;
+}
+.col{
+    padding: 5% 10%;
+}
