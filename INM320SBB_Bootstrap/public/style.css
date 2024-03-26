@@ -213,3 +213,27 @@ h5.userName{
     margin-top: 10px;
 }
 
+.tickets {
+    display: flex;
+    margin-top: 30px;
+    /* width: 500px;
+    height: 500px; */
+    border: 1px solid black;
+    background-color: #FFF;
+}
+
+.ticketHeader {
+    display: flex;
+    
+}
+
+.ticketInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.ticketDetails {
+    
+    
+    
+}
