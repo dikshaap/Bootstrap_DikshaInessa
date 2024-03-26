@@ -190,3 +190,26 @@ img{
 .col{
     padding: 5% 10%;
 }
+.userName{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+}
+.leftNav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row !important;
+    gap: 20px;
+    /* padding-top: 5px; */
+}
+svg.photo{
+    width: 44px;
+    height: 44px;
+}
+svg.icons{
+    margin-top: 10px;
+}
+h5.userName{
+    margin-top: 10px;
+}
+
