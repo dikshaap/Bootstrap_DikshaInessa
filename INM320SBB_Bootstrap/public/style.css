@@ -114,16 +114,18 @@ a.sidebar-link:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: 3em;
-
+    row-gap: 20px;
 }
-
+.card{
+    border: 1px solid #DFE0EB;
+}
 
 
 .card-subtitle {
     font-family: 'Mulish', sans-serif;
     font-weight: 700;
     font-size: 19px;
-    color: #9FA2B4;
+    color: #9FA2B4 !important;
     text-align: center;
     padding-top: 15px;
 }
@@ -138,9 +140,33 @@ a.sidebar-link:hover {
 
 .card:hover .card-subtitle,
 .card:hover .card-title {
-    color: #3751FF;
+    color: #3751FF !important;
 }
 
 .card:hover {
     border: 1px solid #3751FF;
 }
+
+.userName{
+    font-family: 'Mulish';
+    font-weight: 600;
+    font-size: 14px;
+}
+.leftNav{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row !important;
+    gap: 20px;
+    /* padding-top: 5px; */
+}
+svg.photo{
+    width: 44px;
+    height: 44px;
+}
+svg.icons{
+    margin-top: 10px;
+}
+h5.userName{
+    margin-top: 10px;
+}
+
