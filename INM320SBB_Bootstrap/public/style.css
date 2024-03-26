@@ -205,12 +205,14 @@ img{
 svg.photo{
     width: 44px;
     height: 44px;
+    margin-right: 10px;
 }
 svg.icons{
     margin-top: 10px;
 }
 h5.userName{
     margin-top: 10px;
+    
 }
 
 .tickets {
