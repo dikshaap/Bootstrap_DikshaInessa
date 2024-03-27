@@ -190,6 +190,9 @@ img{
 .col{
     padding: 5% 10%;
 }
+
+
+/* BOTTOM CONTENT */
 .userName{
     font-family: 'Mulish';
     font-weight: 600;
@@ -337,6 +340,7 @@ h5.userName{
     display: flex;
     justify-content:flex-start;
     margin-left: 50px;
+    padding-bottom: 100px !important;
 }
 .view{
     font-family: 'Mulish';
@@ -352,6 +356,8 @@ h5.userName{
     text-align: right !important;
 }
 
-ul.list-group > li.taskText{
-    justify-content: flex-start;
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
+    
 }
