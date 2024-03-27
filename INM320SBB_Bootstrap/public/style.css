@@ -190,6 +190,9 @@ img{
 .col{
     padding: 5% 10%;
 }
+
+
+/* BOTTOM CONTENT */
 .userName{
     font-family: 'Mulish';
     font-weight: 600;
@@ -217,25 +220,144 @@ h5.userName{
 
 .tickets {
     display: flex;
-    margin-top: 30px;
-    /* width: 500px;
-    height: 500px; */
+    margin-top: 30px !important;
+    width: 500px !important;
+    height: 250px;
     border: 1px solid black;
     background-color: #FFF;
-}
-
-.ticketHeader {
-    display: flex;
-    
-}
-
-.ticketInfo {
-    display: flex;
     flex-direction: row;
+    margin-left: 300px;
+    border-radius: 10px;
+    border:1px solid #DFE0EB;
+    justify-content: center;
+}
+.leftCol{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.ticketDetails {
+.rightCol{
+    padding-top: 20px;
+    flex: 1;
+    align-self: flex-end !important;
+}
+
+.ticketHeader{
+    font-family: 'Mulish';
+    font-size: 19px;
+    color: #252733;
+    font-weight: 600;
+}
+
+.details{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #3751FF;
+    padding-left: 200px;
+    align-items: flex-end;
+}
+
+.ticketName{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #252733;
+    font-weight: 600;
+    border-bottom: 1px solid #DFE0EB;
+}
+
+.ticketNumber{
+    color: #9FA2B4;
+    font-family: 'Mulish';
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 190px;
+}
+.groupLabel {
+    color: #9FA2B4; 
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.supportGroup {
+    color: #252733; 
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list-group-item{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #252733;
+    font-weight: 600;
+}
+.tasks{
+    display: flex;
+    margin-top: 30px !important;
+    width: 500px !important;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #FFF;
+    flex-direction: row;
+    margin-left: 30px;
+    border-radius: 10px;
+    border:1px solid #DFE0EB;
+    justify-content: center;
+}
+
+.yellowBadge{
+    background-color: #FEC400;
+    border-radius: 5px;
+    color: #FFF;
+    width: 60px;
+    text-align: center;
+}
+.greenBadge{
+    background-color: #29CC97;
+    border-radius: 5px;
+    color: #FFF;
+    width: 60px;
+    text-align: center;
+}
+.greyBadge{
+    background-color: #f8f7fc;
+    border-radius: 5px;
+    color: #9fa2b4;
+    width: 70px;
+    text-align: center;
     
-    
+}
+.plus{
+    color: #9FA2B4;
+    border-radius: 10px;
+    fill: #9FA2B4;
+}
+#create{
+    color: #C5C7CD;
+
+}
+.bottomContent{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 50px;
+    padding-bottom: 100px !important;
+}
+.view{
+    font-family: 'Mulish';
+    font-size: 14px;
+    color: #3751FF;
+    padding-left: 300px;
+    align-items: flex-end;
+}
+.padding{
+    padding-right: 40px;
+}
+.taskText{
+    text-align: right !important;
+}
+
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 600px) {
     
 }
