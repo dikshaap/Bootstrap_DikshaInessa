@@ -167,6 +167,7 @@ a.sidebar-link:hover {
 }
 img{
     padding-top: 5%;
+    
 }
 .h8{
     font-family: 'Mulish', sans-serif;
@@ -190,7 +191,10 @@ img{
 .col{
     padding: 5% 10%;
 }
-
+.row{
+    display: flex;
+    flex: 1;
+}
 
 /* BOTTOM CONTENT */
 .userName{
@@ -302,15 +306,21 @@ h5.userName{
     margin-left: 30px;
     border-radius: 10px;
     border:1px solid #DFE0EB;
-    /* justify-content: center; */
+    justify-content: center;
 }
-
+/* span.yellowBadge, span.greenBadge, span.greyBadge{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+} */
 .yellowBadge{
     background-color: #FEC400;
     border-radius: 5px;
     color: #FFF;
     width: 60px;
     text-align: center;
+    margin-left: 166px;
+    font-size: 12px;
 }
 .greenBadge{
     background-color: #29CC97;
@@ -318,6 +328,8 @@ h5.userName{
     color: #FFF;
     width: 60px;
     text-align: center;
+    margin-left: 120px;
+    font-size: 12px;
 }
 .greyBadge{
     background-color: #f8f7fc;
@@ -325,7 +337,8 @@ h5.userName{
     color: #9fa2b4;
     width: 70px;
     text-align: center;
-    
+    margin-left: 155px;
+    font-size: 12px;
 }
 .plus{
     color: #9FA2B4;
@@ -352,10 +365,26 @@ h5.userName{
 .padding{
     padding-right: 40px;
 }
-
-
+/* .taskText{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+} */
+.plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 
 /* RESPONSIVENESS */
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 1389px) {
+    .tasks{
+        
+    }
+    .tickets{
+        margin-left: 200px;
+    }
+    #graph{
+        margin: 30px 0 0 200px;
+    }
 }
