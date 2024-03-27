@@ -378,9 +378,7 @@ h5.userName{
 
 /* RESPONSIVENESS */
 @media only screen and (max-width: 1389px) {
-    .tasks{
-        
-    }
+    
     .tickets{
         margin-left: 200px;
     }
